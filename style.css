@@ -1,0 +1,406 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+body
+{
+
+	background-color: white;
+	
+}
+
+header{
+	width: 100%;
+	height: 100vh;
+	background-image: url('cats-paw-2288769_1920.jpg');
+	background-position: top;
+	background-size: cover;
+	font-family: cursive;
+}
+
+.header_menu{
+	width: 100%;
+    margin-right: 5%;
+    float: left;
+}
+
+.menu_list{
+	font-size: 15px;
+	text-align: right;
+	padding-right: 50px;
+}
+
+.menu_list li{
+	display: inline-block;
+	text-transform: uppercase;
+	list-style: none;
+    letter-spacing: 1px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.menu_list li a{
+	color:rgba(255, 255, 255, .8);
+	text-decoration: none;
+}
+
+.menu_list li a:hover{
+	color:#7fb426;
+}
+
+.header_content{
+	text-transform: uppercase;
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color:rgba(255, 255, 255, .8);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.header_content h2{
+	margin-bottom: 50px;
+	font-size: 17px;
+	font-weight: 500;
+	letter-spacing: 0.3em;
+}
+
+.header_content h1{
+	margin-bottom: 50px;
+	font-size: 50px;
+	font-weight: 500;
+	letter-spacing: 0.7em;
+}
+
+.header_content button{
+	height: auto;
+	padding:8px 37px;
+	background-color: #7fb426;
+	font-size: 12px;
+	margin-right: 20px;
+	font-family: cursive;
+}
+
+.header_content button a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	letter-spacing: 1px;
+}
+
+.header_content button:hover{
+	background-color: gray;
+    border: rgb(85, 160, 82);
+    
+}
+
+.boxtitle {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	font-size: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #7e7b77;
+    font-family: cursive;
+}
+   
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 30px;
+    margin-left: 30px;
+    background: linear-gradient( rgba(119, 115, 115, 0.096), rgba(131, 127, 127, 0.13) );
+    margin-bottom: 30px;
+    padding: 30px;
+	
+    
+}
+
+.box1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 270px;
+    background-image: url('Grebalica\ za\ macke.jpg');
+    background-size: cover;
+    margin: 10px;
+	border-radius: 10px;
+}
+
+.box2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 270px;
+    background-image: url('hrana_za_macke_maine_coon_royal_canin.jpg');
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.box3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 270px;
+    background-image: url('wc\ za\ macke.jpg');
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.box4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 270px;
+    background-image: url('igracka\ za\ psa.jpg');
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+.box5 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 270px;
+    background-image: url('Sampon\ za\ pse\ i\ macke.jpg');
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px;
+ }
+ .box6 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 270px;
+    background-image: url('kreveti\ za\ pse.jpg');
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px;
+ }
+
+ .box7 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 270px;
+    background-image: url('Transporter.jpg');
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px;
+ }
+
+ .box8 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 270px;
+    background-image: url('Kavez\ za\ ptice.jpg');
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px;
+ }
+
+ .box9 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 270px;
+    background-image: url('Hrana\ za\ hrcke.jpg');
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px;
+ }
+ .box10 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 270px;
+    background-image: url('akvarij.jpg');
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px;
+ }
+ .box11 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 270px;
+    background-image: url('Hrana\ za\ pse.jpg');
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px;
+ }
+
+ .box12 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 270px;
+    background-image: url('povodac\ za\ macke.jpg');
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px;
+ }
+ .box13 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 270px;
+    background-image: url('Vigo-Rokavica-za-dlake-24.jpg');
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px;
+ }
+
+ .box14 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 210px;
+    height: 270px;
+    background-image: url('ogrlica\ za\ pse.jpg');
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px;
+ }
+
+ .circle {
+    background-color: rgba(255, 255, 255, 0.582);
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.boxes div div span {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+.grey {
+	color:black;
+	
+}
+
+
+.trapezoid {
+    border-bottom: 26px solid #7fb426;
+    border-left: 28px solid transparent;
+    border-right: 28px solid transparent;
+    height: 6px;
+    right: -26px;
+    top: 6px;
+    width: 43px;
+    position: absolute;
+    transform: rotate(44deg);
+}
+
+.trapezoid span {
+    position: absolute;
+    bottom: -326%;
+    left: -5%;
+}
+
+.trapezoid-light {
+    border-bottom: 28px solid #7fb426;
+    border-left: 28px solid transparent;
+    border-right: 28px solid transparent;
+    height: 7px;
+    right: -28px;
+    top: 8px;
+    width: 53px;
+    position: absolute;
+    transform: rotate(44deg);
+}
+
+.trapezoid-light span {
+    position: absolute;
+    bottom: -386%;
+    left: -20%;
+}
+
+.btn1
+{
+	
+    background: #7fb426;
+    text-align: center;
+	color: black;
+	padding: 10px;
+	padding: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+	transition: 0.3s;
+	border: none;
+	
+ }
+
+ .btn1:hover
+ {
+	background: rgb(134, 131, 131);
+ }
+ 
+ @media only screen and (max-width: 850px) {
+    .header_content
+    {
+      font-size: 100%;
+    }
+    .header_content h1 {
+
+        font-size: 100%;
+    }
+    .menu_list
+    {
+       display: none;
+    }
+}
+
+    @media only screen and (max-width: 850px) {
+.boxtitle
+{
+    font-size: 100%;
+}
+}
+
